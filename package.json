@@ -1,0 +1,27 @@
+{
+  "name": "authors-and-posts",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "dev": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "start": "node server"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "bs-platform": "^2.1.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.2",
+    "body-parser": "^1.18.2",
+    "bs-graphql-tools": "^0.3.1",
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "graphql-tools": "^2.16.0"
+  }
+}

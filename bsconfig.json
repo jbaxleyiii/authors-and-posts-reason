@@ -1,0 +1,17 @@
+{
+  "name": "authors-and-posts",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "bs-graphql-tools"
+  ],
+  "namespace": true,
+  "refmt": 3
+}
